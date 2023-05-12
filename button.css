@@ -1,0 +1,35 @@
+* 
+{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: 'poppins',sans-serif;
+}
+html,body{ 
+    display: grid;
+    height: 100px;
+    place-items: center;  
+    background: #000;
+    overflow: hidden;
+}
+button{
+    
+    position: relative;
+    height: 60px;
+    width: 200px;
+    margin: 0px 35px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    cursor:pointer;
+}
+button:hover{
+    background: linear-gradient(90deg, #157815 , #975239 , #532765);
+    background-size: 400px;
+}
